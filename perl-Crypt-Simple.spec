@@ -1,12 +1,16 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	Simple
 Summary:	Crypt::Simple Perl module - encrypt stuff simply
 Summary(pl):	Modu³ Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
-Version:	0.04
+Version:	0.06
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
