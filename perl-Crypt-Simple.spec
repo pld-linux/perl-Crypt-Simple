@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	Simple
+%define		pdir	Crypt
+%define		pnam	Simple
 Summary:	Crypt::Simple Perl module - encrypt stuff simply
 Summary(pl):	Modu³ Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
