@@ -9,7 +9,7 @@ Summary:	Crypt::Simple Perl module - encrypt stuff simply
 Summary(pl):	Modu³ Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
 Version:	0.06
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -19,7 +19,7 @@ BuildRequires:	perl-Crypt-Blowfish >= 2.06
 BuildRequires:	perl-Digest-MD5 >= 2.13
 BuildRequires:	perl-FreezeThaw >= 0.41
 BuildRequires:	perl-MIME-Base64 >= 2.11
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 Requires:	perl-Compress-Zlib >= 1.11
 Requires:	perl-Crypt-Blowfish >= 2.06
 Requires:	perl-Digest-MD5 >= 2.13
