@@ -12,7 +12,7 @@ Version:	0.06
 Release:	1
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Compress-Zlib >= 1.11
 BuildRequires:	perl-Crypt-Blowfish >= 2.06
