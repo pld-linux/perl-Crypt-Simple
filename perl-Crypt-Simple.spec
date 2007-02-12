@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	Simple
 Summary:	Crypt::Simple Perl module - encrypt stuff simply
-Summary(pl):	Modu³ Perla Crypt::Simple - proste szyfrowanie
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
 Version:	0.06
 Release:	3
@@ -35,11 +35,11 @@ that you can save in a text file, send in an email, store in a cookie
 or web page, or bounce around the Net. The data you encrypt can be as
 simple or as complicated as you like.
 
-%description -l pl
-Ten ma³y modu³ modu³ konwertuje dane na przyjemny tekst base64, który
-mo¿na zapisaæ w pliku tekstowym, wys³aæ poczt± elektroniczn±, zapisaæ
-w ciasteczku lub na stronie WWW, albo przesy³aæ przez sieæ.
-Zaszyfrowane dane mog± byæ dowolnie proste lub skomplikowane.
+%description -l pl.UTF-8
+Ten maÅ‚y moduÅ‚ moduÅ‚ konwertuje dane na przyjemny tekst base64, ktÃ³ry
+moÅ¼na zapisaÄ‡ w pliku tekstowym, wysÅ‚aÄ‡ pocztÄ… elektronicznÄ…, zapisaÄ‡
+w ciasteczku lub na stronie WWW, albo przesyÅ‚aÄ‡ przez sieÄ‡.
+Zaszyfrowane dane mogÄ… byÄ‡ dowolnie proste lub skomplikowane.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
