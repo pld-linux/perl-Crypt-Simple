@@ -9,7 +9,7 @@ Summary:	Crypt::Simple Perl module - encrypt stuff simply
 Summary(pl.UTF-8):	Moduł Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
 Version:	0.06
-Release:	3
+Release:	4
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
