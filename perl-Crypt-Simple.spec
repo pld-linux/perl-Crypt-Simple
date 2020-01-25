@@ -4,7 +4,6 @@
 
 %define		pdir	Crypt
 %define		pnam	Simple
-%include	/usr/lib/rpm/macros.perl
 Summary:	Crypt::Simple Perl module - encrypt stuff simply
 Summary(pl.UTF-8):	Moduł Perla Crypt::Simple - proste szyfrowanie
 Name:		perl-Crypt-Simple
